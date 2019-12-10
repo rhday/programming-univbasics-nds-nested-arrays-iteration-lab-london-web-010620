@@ -18,7 +18,7 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-    greater_number_array = 0
+    greater_number_array = []
     pair_index = 0
     while pair_index < src.length do
        if src[pair_index][0] > src[pair_index][1]
@@ -33,7 +33,7 @@ def find_greater_pair(src)
 
 def total_even_pairs(src)
     pair_index = 0
-    even_number_array = []
+    even_number_array = 0
     while pair_index < src.length do 
         if src[pair_index][0] % 2 == 0 && src[pair_index][1] % 2 == 0
             even_number_array += src[pair_index][0]
