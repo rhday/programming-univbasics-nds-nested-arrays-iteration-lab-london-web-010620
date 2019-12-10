@@ -18,7 +18,7 @@ def join_ingredients(src)
 end
 
 def find_greater_pair(src)
-    greater_number_array = []
+    greater_number_array = 0
     pair_index = 0
     while pair_index < src.length do
        if src[pair_index][0] > src[pair_index][1]
